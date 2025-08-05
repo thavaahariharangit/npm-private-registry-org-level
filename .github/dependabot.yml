@@ -5,11 +5,11 @@ updates:
     versioning-strategy: "increase"
     schedule:
       interval: "weekly"
-    registries:
-      - jfrog-artifactroy
+#     registries:
+#       - jfrog-artifactroy
 
-registries:
-  jfrog-artifactroy:
-    type: "npm-registry"
-    url: "https://jfrogghdemo.jfrog.io/artifactory/api/npm/dpndbt-pvt-repo-npm-key/"
-    token: "${{secrets.JFROG_ARTIFACTORY_TOKEN}}"
+# registries:
+#   jfrog-artifactroy:
+#     type: "npm-registry"
+#     url: "https://jfrogghdemo.jfrog.io/artifactory/api/npm/dpndbt-pvt-repo-npm-key/"
+#     token: "${{secrets.JFROG_ARTIFACTORY_TOKEN}}"
